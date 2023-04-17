@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First web created</title>
+   
+</head>
+<body>
+    
+    <h1>Form</h1>
+    <form>
+        <form action="envio.php" method="post" target="_ blank">
+            <label for="user">User:</label>
+            <input type="text" id="user" size="tamaño"
+            name="name" placeholder="Enter your user" maxlength="10" minlength="4">
+            <br>
+            <br>
+            <label for="Password">Password:</label>
+            <input type="Password" id="password" size="tamaño"
+            name="Password" placeholder="Enter your password">
+            <br>
+            <br>
+            Select the programming lenguage you understand
+            <br>
+            <br>
+            <input type="radio" name="lenguajes" value="html"> HTML
+            <input type="radio" name="lenguajes" value="css"> CSS
+            <input type="radio" name="lenguajes" value="javascript"> Javascript
+            <input type="radio" name="lenguajes" value="python"> Python
+            <br>
+            <br>
+            <label for="programando">Seniority:</label>
+            <br>
+            <input type="number" id="usuario" size="tamaño"
+            name="nombre" placeholder="">
+            <br>
+            <br>
+            <label for="comment">Add a comment:</label>
+            <br>
+            <textarea type="file" id="opinion" size="tamaño"
+            name="comment" placeholder="Enter your opinion here" rows="10" cols="50"></textarea>
+            <br>
+            <br>
+            <label for="country">Select your country:</label>
+            <select name="country" id="country">
+                <optgroup label="America">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>   
+                    <option value="Chile">Chile</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="USA">USA</option>
+                </optgroup>
+            </select>
+            
+
+        <br>
+        <br>
+        <label for="date">Birth Date</label>
+        <input type="date" name="date" id="date" max="2023-04-17">
+        <br>
+        <br>
+        <input type="submit" value="Send data">
+        <input type="reset" value="Reset data">
+        <input type="button" onclick="alert(Enroll in my class)" value="Greeting you">
+        <br>
+        <br>
+        
+    </form>
+
+    <div class="form"></div>
+
+</body>
+
+<style>
+
+    body{
+        font-size: 21px;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family:  ;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        background-image: url(blur\ II.jpeg);
+        background-color: rgb(228, 224, 224);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+    }
+
+    h1{
+        background-color: rgb(218, 230, 240); text-align: center;
+    }
+   
+    .img{
+        background: url(workspace.jpg);
+           background: linear-gradient(rgba(5, 7, 12, 0.75)), (rgba(5, 7, 12, 0.75));
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+           background-position: center;
+           content: "";
+           width: 100%;
+           min-height: 100vh;
+           position: relative;
+           top: 0;
+           left: 0;
+           }
+</style>
+
+</html>
